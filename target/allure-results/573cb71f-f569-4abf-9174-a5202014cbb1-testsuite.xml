@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1688988689243" stop="1688988785763" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1688988689327" stop="1688988717569" status="passed">
+            <name>As a resident from England I need to know appliances cost to run</name>
+            <title>As a resident from England I need to know appliances cost to run</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1688988697138" stop="1688988705866" status="passed">
+                    <name>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</name>
+                    <title>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988705867" stop="1688988706014" status="passed">
+                    <name>Then I should see Energy Cost Calculator Page</name>
+                    <title>Then I should see Energy Cost Calculator Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988706015" stop="1688988707451" status="passed">
+                    <name>Then I Select Advice Applies to England</name>
+                    <title>Then I Select Advice Applies to England</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988707451" stop="1688988707655" status="passed">
+                    <name>And I enter "34" kwh</name>
+                    <title>And I enter "34" kwh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988707656" stop="1688988708037" status="passed">
+                    <name>When I select appliance "PC or desktop computer"</name>
+                    <title>When I select appliance "PC or desktop computer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988708039" stop="1688988708497" status="passed">
+                    <name>Then I enter "8" hours</name>
+                    <title>Then I enter "8" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988708498" stop="1688988708732" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988708732" stop="1688988708845" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988708846" stop="1688988708907" status="passed">
+                    <name>Then I verify "PC or desktop computer" appliance added to the list</name>
+                    <title>Then I verify "PC or desktop computer" appliance added to the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988708907" stop="1688988709081" status="passed">
+                    <name>When I select appliance "Dishwasher"</name>
+                    <title>When I select appliance "Dishwasher"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988709081" stop="1688988709261" status="passed">
+                    <name>Then I enter "2" hours</name>
+                    <title>Then I enter "2" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988709262" stop="1688988709448" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988709448" stop="1688988709542" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988709543" stop="1688988709608" status="passed">
+                    <name>Then I verify "Dishwasher" appliance added to the list</name>
+                    <title>Then I verify "Dishwasher" appliance added to the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988709608" stop="1688988709911" status="passed">
+                    <name>When I select appliance "Washing machine"</name>
+                    <title>When I select appliance "Washing machine"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988709913" stop="1688988710201" status="passed">
+                    <name>Then I enter "2" hours</name>
+                    <title>Then I enter "2" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988710202" stop="1688988710402" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988710402" stop="1688988710488" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988710489" stop="1688988710560" status="passed">
+                    <name>Then I verify "Washing machine" appliance added to the list</name>
+                    <title>Then I verify "Washing machine" appliance added to the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988710561" stop="1688988710820" status="passed">
+                    <name>When I select appliance "Light bulb - energy-saving CFL"</name>
+                    <title>When I select appliance "Light bulb - energy-saving CFL"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988710821" stop="1688988711196" status="passed">
+                    <name>Then I enter "6" hours</name>
+                    <title>Then I enter "6" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988711197" stop="1688988711403" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988711404" stop="1688988711549" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988711549" stop="1688988711635" status="passed">
+                    <name>Then I verify "Light bulb - energy-saving CFL" appliance added to the list</name>
+                    <title>Then I verify "Light bulb - energy-saving CFL" appliance added to the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988711635" stop="1688988711990" status="passed">
+                    <name>When I select appliance "Light bulb - energy-saving LED"</name>
+                    <title>When I select appliance "Light bulb - energy-saving LED"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988711991" stop="1688988712376" status="passed">
+                    <name>Then I enter "6" hours</name>
+                    <title>Then I enter "6" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988712376" stop="1688988712521" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988712522" stop="1688988712609" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988712610" stop="1688988712661" status="passed">
+                    <name>Then I verify "Light bulb - energy-saving LED" appliance added to the list</name>
+                    <title>Then I verify "Light bulb - energy-saving LED" appliance added to the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988712661" stop="1688988713008" status="passed">
+                    <name>When I select appliance "TV"</name>
+                    <title>When I select appliance "TV"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988713008" stop="1688988713319" status="passed">
+                    <name>Then I enter "4" hours</name>
+                    <title>Then I enter "4" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988713319" stop="1688988713502" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988713503" stop="1688988713656" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988713656" stop="1688988713726" status="passed">
+                    <name>Then I verify "TV" appliance added to the list</name>
+                    <title>Then I verify "TV" appliance added to the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988713726" stop="1688988714004" status="passed">
+                    <name>When I select appliance "Microwave"</name>
+                    <title>When I select appliance "Microwave"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988714005" stop="1688988714326" status="passed">
+                    <name>Then I enter "1" hours</name>
+                    <title>Then I enter "1" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988714326" stop="1688988714484" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988714484" stop="1688988714597" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988714597" stop="1688988714694" status="passed">
+                    <name>Then I verify "Microwave" appliance added to the list</name>
+                    <title>Then I verify "Microwave" appliance added to the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988714694" stop="1688988715060" status="passed">
+                    <name>When I select appliance "Electric car charger (wallbox)"</name>
+                    <title>When I select appliance "Electric car charger (wallbox)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988715061" stop="1688988715384" status="passed">
+                    <name>Then I enter "8" hours</name>
+                    <title>Then I enter "8" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988715384" stop="1688988715532" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988715532" stop="1688988715622" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988715622" stop="1688988715719" status="passed">
+                    <name>Then I verify "Electric car charger (wallbox)" appliance added to the list</name>
+                    <title>Then I verify "Electric car charger (wallbox)" appliance added to the list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="ef809d99-d4b7-4016-9c7a-377a9d6cfff6-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="As a resident from England I need to know appliances cost to run"/>
+                <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+                <label name="host" value="INLT3409"/>
+                <label name="thread" value="29088@INLT3409.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1688988717582" stop="1688988746248" status="passed">
+            <name>As a resident from Scotland I need to know appliances cost to run</name>
+            <title>As a resident from Scotland I need to know appliances cost to run</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1688988722375" stop="1688988734210" status="passed">
+                    <name>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</name>
+                    <title>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988734210" stop="1688988734308" status="passed">
+                    <name>Then I should see Energy Cost Calculator Page</name>
+                    <title>Then I should see Energy Cost Calculator Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988734309" stop="1688988735727" status="passed">
+                    <name>Then I Select Advice Applies to Scotland</name>
+                    <title>Then I Select Advice Applies to Scotland</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988735727" stop="1688988735856" status="passed">
+                    <name>And I enter "67" kwh</name>
+                    <title>And I enter "67" kwh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988735856" stop="1688988736216" status="passed">
+                    <name>When I select appliance "PC or desktop computer"</name>
+                    <title>When I select appliance "PC or desktop computer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988736216" stop="1688988736416" status="passed">
+                    <name>Then I enter "8" hours</name>
+                    <title>Then I enter "8" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988736416" stop="1688988736552" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988736552" stop="1688988736676" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988736676" stop="1688988736863" status="passed">
+                    <name>When I select appliance "Dishwasher"</name>
+                    <title>When I select appliance "Dishwasher"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988736863" stop="1688988737122" status="passed">
+                    <name>Then I enter "2" hours</name>
+                    <title>Then I enter "2" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988737123" stop="1688988737431" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988737432" stop="1688988737554" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988737554" stop="1688988737906" status="passed">
+                    <name>When I select appliance "Washing machine"</name>
+                    <title>When I select appliance "Washing machine"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988737906" stop="1688988738236" status="passed">
+                    <name>Then I enter "2" hours</name>
+                    <title>Then I enter "2" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988738236" stop="1688988738433" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988738433" stop="1688988738571" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988738571" stop="1688988738821" status="passed">
+                    <name>When I select appliance "Light bulb - energy-saving CFL"</name>
+                    <title>When I select appliance "Light bulb - energy-saving CFL"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988738821" stop="1688988739049" status="passed">
+                    <name>Then I enter "6" hours</name>
+                    <title>Then I enter "6" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988739049" stop="1688988739251" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988739251" stop="1688988739390" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988739390" stop="1688988739553" status="passed">
+                    <name>When I select appliance "Light bulb - energy-saving LED"</name>
+                    <title>When I select appliance "Light bulb - energy-saving LED"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988739554" stop="1688988739772" status="passed">
+                    <name>Then I enter "6" hours</name>
+                    <title>Then I enter "6" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988739772" stop="1688988739950" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988739950" stop="1688988740067" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988740067" stop="1688988740228" status="passed">
+                    <name>When I select appliance "TV"</name>
+                    <title>When I select appliance "TV"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988740228" stop="1688988740384" status="passed">
+                    <name>Then I enter "4" hours</name>
+                    <title>Then I enter "4" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988740384" stop="1688988740535" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988740536" stop="1688988740626" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988740626" stop="1688988740860" status="passed">
+                    <name>When I select appliance "Microwave"</name>
+                    <title>When I select appliance "Microwave"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988740860" stop="1688988741018" status="passed">
+                    <name>Then I enter "1" hours</name>
+                    <title>Then I enter "1" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988741018" stop="1688988741208" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988741208" stop="1688988741368" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988741368" stop="1688988741596" status="passed">
+                    <name>When I select appliance "Electric car charger (wallbox)"</name>
+                    <title>When I select appliance "Electric car charger (wallbox)"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988741596" stop="1688988741855" status="passed">
+                    <name>Then I enter "8" hours</name>
+                    <title>Then I enter "8" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988741855" stop="1688988742170" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988742171" stop="1688988742339" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988742339" stop="1688988742699" status="passed">
+                    <name>When I select appliance "Fan heater"</name>
+                    <title>When I select appliance "Fan heater"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988742699" stop="1688988743035" status="passed">
+                    <name>Then I enter "8" hours</name>
+                    <title>Then I enter "8" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988743035" stop="1688988743298" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988743298" stop="1688988743468" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988743468" stop="1688988743812" status="passed">
+                    <name>When I select appliance "Phone or tablet charger"</name>
+                    <title>When I select appliance "Phone or tablet charger"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988743813" stop="1688988744220" status="passed">
+                    <name>Then I enter "1" hours</name>
+                    <title>Then I enter "1" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988744220" stop="1688988744538" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988744538" stop="1688988744706" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment1" source="d8ef6c9e-2327-4384-bdc4-148d405d5436-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="As a resident from Scotland I need to know appliances cost to run"/>
+                <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+                <label name="host" value="INLT3409"/>
+                <label name="thread" value="29088@INLT3409.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1688988746250" stop="1688988770312" status="passed">
+            <name>As a resident from Wales I need to know appliances cost to run</name>
+            <title>As a resident from Wales I need to know appliances cost to run</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1688988751330" stop="1688988760244" status="passed">
+                    <name>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</name>
+                    <title>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988760245" stop="1688988760336" status="passed">
+                    <name>Then I should see Energy Cost Calculator Page</name>
+                    <title>Then I should see Energy Cost Calculator Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988760336" stop="1688988761671" status="passed">
+                    <name>Then I Select Advice Applies to Wales</name>
+                    <title>Then I Select Advice Applies to Wales</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988761671" stop="1688988761808" status="passed">
+                    <name>And I enter "67" kwh</name>
+                    <title>And I enter "67" kwh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988761808" stop="1688988766253" status="passed">
+                    <name>When I select appliance "PC or desktop computer"</name>
+                    <title>When I select appliance "PC or desktop computer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988766253" stop="1688988766489" status="passed">
+                    <name>Then I enter "8" hours</name>
+                    <title>Then I enter "8" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988766490" stop="1688988766659" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988766659" stop="1688988766778" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988766779" stop="1688988766934" status="passed">
+                    <name>When I select appliance "Dishwasher"</name>
+                    <title>When I select appliance "Dishwasher"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988766934" stop="1688988767099" status="passed">
+                    <name>Then I enter "2" hours</name>
+                    <title>Then I enter "2" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988767099" stop="1688988767246" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988767246" stop="1688988767360" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988767360" stop="1688988767528" status="passed">
+                    <name>When I select appliance "Washing machine"</name>
+                    <title>When I select appliance "Washing machine"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988767529" stop="1688988767682" status="passed">
+                    <name>Then I enter "2" hours</name>
+                    <title>Then I enter "2" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988767682" stop="1688988767844" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988767844" stop="1688988767935" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988767935" stop="1688988768082" status="passed">
+                    <name>When I select appliance "Light bulb - energy-saving CFL"</name>
+                    <title>When I select appliance "Light bulb - energy-saving CFL"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988768082" stop="1688988768226" status="passed">
+                    <name>Then I enter "6" hours</name>
+                    <title>Then I enter "6" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988768226" stop="1688988768394" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988768394" stop="1688988768508" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988768508" stop="1688988768674" status="passed">
+                    <name>When I select appliance "Light bulb - energy-saving LED"</name>
+                    <title>When I select appliance "Light bulb - energy-saving LED"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988768674" stop="1688988768831" status="passed">
+                    <name>Then I enter "6" hours</name>
+                    <title>Then I enter "6" hours</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988768831" stop="1688988768971" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988768971" stop="1688988769060" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment2" source="edb89c61-ac0b-4bfc-b578-6a82daaf640d-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="As a resident from Wales I need to know appliances cost to run"/>
+                <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+                <label name="host" value="INLT3409"/>
+                <label name="thread" value="29088@INLT3409.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1688988770314" stop="1688988785755" status="passed">
+            <name>As a resident from Northern Ireland I need to know appliances cost to run</name>
+            <title>As a resident from Northern Ireland I need to know appliances cost to run</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1688988775159" stop="1688988782458" status="passed">
+                    <name>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</name>
+                    <title>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988782458" stop="1688988782585" status="passed">
+                    <name>Then I should see Energy Cost Calculator Page</name>
+                    <title>Then I should see Energy Cost Calculator Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988782585" stop="1688988784422" status="passed">
+                    <name>When I Select Advice Applies to Northern Ireland</name>
+                    <title>When I Select Advice Applies to Northern Ireland</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1688988784422" stop="1688988784503" status="passed">
+                    <name>Then I get this website doesn't cover Northern Ireland Message</name>
+                    <title>Then I get this website doesn't cover Northern Ireland Message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment3" source="f822e20e-11e8-4196-b511-f217308afcab-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="As a resident from Northern Ireland I need to know appliances cost to run"/>
+                <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+                <label name="host" value="INLT3409"/>
+                <label name="thread" value="29088@INLT3409.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
