@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1688926966503" stop="1688927010109" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1688926966562" stop="1688926985916" status="broken">
+            <name>As a resident from England I need to know appliances cost to run</name>
+            <title>As a resident from England I need to know appliances cost to run</title>
+            <description type="text"></description>
+            <failure>
+                <message>UnhandledAlertException: unexpected alert open: {Alert text : Enter 24 hours or less}
+  (Session info: chrome=114.0.5735.199): Enter 24 hours or less
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INLT3409', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\MDS~1.PRA\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:63564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5b4389158ac3161dd3158dd6b75c0dd
+*** Element info: {Using=xpath, value=//select[@id='appliance']}</message>
+                <stack-trace>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Enter 24 hours or less}
+  (Session info: chrome=114.0.5735.199): Enter 24 hours or less
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INLT3409', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\MDS~1.PRA\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:63564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5b4389158ac3161dd3158dd6b75c0dd
+*** Element info: {Using=xpath, value=//select[@id='appliance']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:44)
+	at com.cucumberFramework.pageObjects.EnergyCostCalculatorPage.selectAppliance(EnergyCostCalculatorPage.java:72)
+	at com.cucumberFramework.stepdefinitions.StepDefinitions.i_select_appliance_as(StepDefinitions.java:32)
+	at ✽.When I select appliance "Washing machine"(src/test/resources/features/calculator/EnergyCostCalculator.feature:16)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1688926974979" stop="1688926981819" status="passed">
+                    <name>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</name>
+                    <title>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</title>
+                </step>
+                <step start="1688926981819" stop="1688926981896" status="passed">
+                    <name>Then I should see Energy Cost Calculator Page</name>
+                    <title>Then I should see Energy Cost Calculator Page</title>
+                </step>
+                <step start="1688926981897" stop="1688926983118" status="passed">
+                    <name>Then I Select Advice Applies to England</name>
+                    <title>Then I Select Advice Applies to England</title>
+                </step>
+                <step start="1688926983118" stop="1688926983249" status="passed">
+                    <name>And I enter "34" kwh</name>
+                    <title>And I enter "34" kwh</title>
+                </step>
+                <step start="1688926983250" stop="1688926983505" status="passed">
+                    <name>When I select appliance "PC or desktop computer"</name>
+                    <title>When I select appliance "PC or desktop computer"</title>
+                </step>
+                <step start="1688926983505" stop="1688926983597" status="passed">
+                    <name>Then I enter "8" hours</name>
+                    <title>Then I enter "8" hours</title>
+                </step>
+                <step start="1688926983597" stop="1688926983700" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688926983701" stop="1688926983833" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+                <step start="1688926983834" stop="1688926984006" status="passed">
+                    <name>When I select appliance "Dishwasher"</name>
+                    <title>When I select appliance "Dishwasher"</title>
+                </step>
+                <step start="1688926984006" stop="1688926984092" status="passed">
+                    <name>Then I enter "2" hours</name>
+                    <title>Then I enter "2" hours</title>
+                </step>
+                <step start="1688926984092" stop="1688926984201" status="passed">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688926984201" stop="1688926984315" status="passed">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+                <step start="1688926984315" stop="1688926984396" status="broken">
+                    <name>When I select appliance "Washing machine"</name>
+                    <title>When I select appliance "Washing machine"</title>
+                </step>
+                <step start="1688926984397" stop="1688926984405" status="canceled">
+                    <name>Then I enter "2" hours</name>
+                    <title>Then I enter "2" hours</title>
+                </step>
+                <step start="1688926984405" stop="1688926984405" status="canceled">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688926984406" stop="1688926984406" status="canceled">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+                <step start="1688926984407" stop="1688926984407" status="canceled">
+                    <name>When I select appliance "Light bulb - energy-saving CFL"</name>
+                    <title>When I select appliance "Light bulb - energy-saving CFL"</title>
+                </step>
+                <step start="1688926984407" stop="1688926984407" status="canceled">
+                    <name>Then I enter "6" hours</name>
+                    <title>Then I enter "6" hours</title>
+                </step>
+                <step start="1688926984407" stop="1688926984407" status="canceled">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688926984407" stop="1688926984407" status="canceled">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+                <step start="1688926984407" stop="1688926984407" status="canceled">
+                    <name>When I select appliance "Light bulb - energy-saving LED"</name>
+                    <title>When I select appliance "Light bulb - energy-saving LED"</title>
+                </step>
+                <step start="1688926984407" stop="1688926984407" status="canceled">
+                    <name>Then I enter "6" hours</name>
+                    <title>Then I enter "6" hours</title>
+                </step>
+                <step start="1688926984408" stop="1688926984408" status="canceled">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688926984408" stop="1688926984408" status="canceled">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+                <step start="1688926984408" stop="1688926984408" status="canceled">
+                    <name>When I select appliance "TV"</name>
+                    <title>When I select appliance "TV"</title>
+                </step>
+                <step start="1688926984408" stop="1688926984408" status="canceled">
+                    <name>Then I enter "4" hours</name>
+                    <title>Then I enter "4" hours</title>
+                </step>
+                <step start="1688926984408" stop="1688926984408" status="canceled">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688926984412" stop="1688926984412" status="canceled">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+                <step start="1688926984412" stop="1688926984412" status="canceled">
+                    <name>When I select appliance "Microwave"</name>
+                    <title>When I select appliance "Microwave"</title>
+                </step>
+                <step start="1688926984412" stop="1688926984413" status="canceled">
+                    <name>Then I enter "1" hours</name>
+                    <title>Then I enter "1" hours</title>
+                </step>
+                <step start="1688926984413" stop="1688926984413" status="canceled">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688926984413" stop="1688926984413" status="canceled">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+                <step start="1688926984413" stop="1688926984413" status="canceled">
+                    <name>When I select appliance "Electric car charger (wallbox)"</name>
+                    <title>When I select appliance "Electric car charger (wallbox)"</title>
+                </step>
+                <step start="1688926984414" stop="1688926984414" status="canceled">
+                    <name>Then I enter "8" hours</name>
+                    <title>Then I enter "8" hours</title>
+                </step>
+                <step start="1688926984414" stop="1688926984414" status="canceled">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688926984415" stop="1688926984415" status="canceled">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="1fdfe76c-27fb-4c3e-a301-e1022a407e7b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="As a resident from England I need to know appliances cost to run"/>
+                <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+                <label name="host" value="INLT3409"/>
+                <label name="thread" value="16664@INLT3409.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1688926985918" stop="1688926999869" status="broken">
+            <name>As a resident from Scotland I need to know appliances cost to run</name>
+            <title>As a resident from Scotland I need to know appliances cost to run</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchElementException: Cannot locate element with text: day
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INLT3409', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: day
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INLT3409', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.cucumberFramework.pageObjects.EnergyCostCalculatorPage.frequencyDropDown(EnergyCostCalculatorPage.java:86)
+	at com.cucumberFramework.stepdefinitions.StepDefinitions.i_select_frequency_from_frequency_dropdown(StepDefinitions.java:47)
+	at ✽.And I select "day" frequency(src/test/resources/features/calculator/EnergyCostCalculator.feature:47)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1688926990712" stop="1688926997226" status="passed">
+                    <name>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</name>
+                    <title>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</title>
+                </step>
+                <step start="1688926997226" stop="1688926997285" status="passed">
+                    <name>Then I should see Energy Cost Calculator Page</name>
+                    <title>Then I should see Energy Cost Calculator Page</title>
+                </step>
+                <step start="1688926997286" stop="1688926998452" status="passed">
+                    <name>Then I Select Advice Applies to Scotland</name>
+                    <title>Then I Select Advice Applies to Scotland</title>
+                </step>
+                <step start="1688926998452" stop="1688926998590" status="passed">
+                    <name>And I enter "67" kwh</name>
+                    <title>And I enter "67" kwh</title>
+                </step>
+                <step start="1688926998590" stop="1688926998779" status="broken">
+                    <name>And I select "day" frequency</name>
+                    <title>And I select "day" frequency</title>
+                </step>
+                <step start="1688926998779" stop="1688926998779" status="canceled">
+                    <name>When I select appliance "PC or desktop computer"</name>
+                    <title>When I select appliance "PC or desktop computer"</title>
+                </step>
+                <step start="1688926998779" stop="1688926998779" status="canceled">
+                    <name>Then I enter "8" hours</name>
+                    <title>Then I enter "8" hours</title>
+                </step>
+                <step start="1688926998779" stop="1688926998779" status="canceled">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688926998779" stop="1688926998779" status="canceled">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment1" source="cc252722-413e-4a65-ae26-ecfba7cc6d40-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="As a resident from Scotland I need to know appliances cost to run"/>
+                <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+                <label name="host" value="INLT3409"/>
+                <label name="thread" value="16664@INLT3409.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1688926999871" stop="1688927007930" status="broken">
+            <name>As a resident from Scotland I need to know appliances cost to run</name>
+            <title>As a resident from Scotland I need to know appliances cost to run</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INLT3409', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\MDS~1.PRA\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:63755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e56e169a7c5b49f3f7401de8f174ea8
+*** Element info: {Using=xpath, value=//span[text()='Compare how much electrical appliances cost to use']}</message>
+                <stack-trace>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INLT3409', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\MDS~1.PRA\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:63755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e56e169a7c5b49f3f7401de8f174ea8
+*** Element info: {Using=xpath, value=//span[text()='Compare how much electrical appliances cost to use']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
+	at com.cucumberFramework.stepdefinitions.StepDefinitions.i_should_see_Sign_In_Page(StepDefinitions.java:27)
+	at ✽.Then I should see Energy Cost Calculator Page(src/test/resources/features/calculator/EnergyCostCalculator.feature:44)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1688927004212" stop="1688927007033" status="passed">
+                    <name>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</name>
+                    <title>Given I navigate to the URL "https://www.citizensadvice.org.uk/consumer/energy/energy-supply/get-help-paying-your-bills/check-how-much-your-electrical-appliances-cost-to-use/"</title>
+                </step>
+                <step start="1688927007033" stop="1688927007052" status="broken">
+                    <name>Then I should see Energy Cost Calculator Page</name>
+                    <title>Then I should see Energy Cost Calculator Page</title>
+                </step>
+                <step start="1688927007053" stop="1688927007053" status="canceled">
+                    <name>Then I Select Advice Applies to Scotland</name>
+                    <title>Then I Select Advice Applies to Scotland</title>
+                </step>
+                <step start="1688927007053" stop="1688927007053" status="canceled">
+                    <name>And I enter "67" kwh</name>
+                    <title>And I enter "67" kwh</title>
+                </step>
+                <step start="1688927007053" stop="1688927007053" status="canceled">
+                    <name>And I select "day" frequency</name>
+                    <title>And I select "day" frequency</title>
+                </step>
+                <step start="1688927007053" stop="1688927007054" status="canceled">
+                    <name>When I select appliance "Dishwasher"</name>
+                    <title>When I select appliance "Dishwasher"</title>
+                </step>
+                <step start="1688927007054" stop="1688927007054" status="canceled">
+                    <name>Then I enter "2" hours</name>
+                    <title>Then I enter "2" hours</title>
+                </step>
+                <step start="1688927007063" stop="1688927007063" status="canceled">
+                    <name>And I enter "00" minutes</name>
+                    <title>And I enter "00" minutes</title>
+                </step>
+                <step start="1688927007064" stop="1688927007064" status="canceled">
+                    <name>And I Click on Add Appliance</name>
+                    <title>And I Click on Add Appliance</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="As a resident from Scotland I need to know appliances cost to run"/>
+                <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+                <label name="host" value="INLT3409"/>
+                <label name="thread" value="16664@INLT3409.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1688927007931" stop="1688927010102" status="broken">
+            <name>As a resident from Scotland I need to know appliances cost to run</name>
+            <title>As a resident from Scotland I need to know appliances cost to run</title>
+            <description type="text"></description>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="story" value="As a resident from Scotland I need to know appliances cost to run"/>
+                <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+                <label name="host" value="INLT3409"/>
+                <label name="thread" value="16664@INLT3409.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1688926966503" stop="1688927010102" status="broken">
+            <name>As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run</name>
+            <title>As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a resident from England, Scotland, Wales, Northren Ireland I need to know estimate of electrical appliances cost to run"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
